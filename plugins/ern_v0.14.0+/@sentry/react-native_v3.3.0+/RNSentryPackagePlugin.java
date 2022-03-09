@@ -6,9 +6,9 @@ import android.support.annotation.Nullable;
 
 import com.facebook.react.ReactInstanceManagerBuilder;
 import com.facebook.react.ReactPackage;
-import io.sentry.RNSentryPackage;
+import io.sentry.react.RNSentryPackage;
 
-public class SentryPlugin implements ReactPlugin {
+public class RNSentryPackagePlugin implements ReactPlugin {
     public ReactPackage hook(@NonNull Application application,
                       @Nullable ReactPluginConfig config) {
         return new RNSentryPackage();

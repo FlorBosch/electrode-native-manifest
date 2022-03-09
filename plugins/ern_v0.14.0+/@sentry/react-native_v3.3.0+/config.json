@@ -1,9 +1,8 @@
 {
   "android": {
-    "root": "",
-    "moduleName": "android",
+    "root": "android",
     "dependencies": [
-      "io.sentry:sentry-android:1.7.5"
+      "io.sentry:sentry-android:5.6.2"
     ]
   },
   "ios": {
